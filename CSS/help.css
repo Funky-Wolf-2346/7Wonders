@@ -1,0 +1,24 @@
+.pr {
+    position: relative !important;
+}
+
+.pa {
+    position: absolute !important;
+}
+
+.active {
+    color: #f5bf32 !important;
+    border-bottom-color: #f5bf32 !important;
+}
+
+.pt-01 {
+    padding-top: 25px;
+}
+
+.tt-10p {
+    transform: translateY(-10%);
+}
+
+.pt-24 {
+    padding-top: 24px;
+}

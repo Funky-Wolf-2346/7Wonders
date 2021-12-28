@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    /* background-color: #282828 !important; */
+    height: 200vh;
+}
+
+.navbar {
+    position: absolute;
+    z-index: 1;
+}
+
+header {
+    z-index: 0;
+
+}
+
+.nav-item {
+    padding: 0 5px;
+    margin: 0 5px;
+    text-align: center;
+    transition: 300ms;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    color: #fff;
+}
+
+.navbar-collapse {
+    right: 0;
+    position: absolute;
+    padding-right: 20px;
+}
+
+.nav-link {
+    color: inherit;
+}
+
+.nav-item:hover{
+    border-bottom-color:#f5bf32;
+    transition: 300ms;
+}
+
+.dropdwon-item {
+    transition: 300ms;
+}
+
+.carousel-item {
+    height: 110vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-1 {
+    background-image: url(../images/slide01.jpg);
+}
+
+.img-2 {
+    background-image: url(../images/slide02.jpg);
+}
+
+.carouselText {
+    position: absolute;
+    margin: 0;
+    color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mars_001 {
+    transform: translateY(-10vh);
+    height: 110vh;
+}
+
+.mars_002 {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#0000, rgba(0,0,0,0.8));
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    padding: 0 12px;
+    transition: 300ms;
+}
+
+.mars_002:hover .mars_003{
+    transform: scale(1.1);
+}
+
+.mars_002:hover .overlay{
+    padding: 0 24px;
+}
+
+.mars_003{
+    transition: 300ms;
+    width: 100%;
+    z-index: 0;
+}
+
+.overlay-inner {
+    bottom: 0;
+    position: absolute;
+}
+
+.overlay h1 {
+    color: #f5bf32;
+}
